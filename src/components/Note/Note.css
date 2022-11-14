@@ -1,0 +1,94 @@
+.note-wrap {
+  width: 180px;
+  height: 235px;
+  padding: 35px;
+  margin: 0 22px 44px 22px;
+  position: relative;
+  font-size: 24px;
+  display: inline-block;
+  color: #4b453c;
+  background: #f7e999;
+  line-height: 34px;
+  text-align: center;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  overflow-wrap: break-word;
+  font-family: Englebert, Arial;
+}
+
+.note-wrap::before {
+  display: block;
+  content: "";
+  background: rgba(227, 200, 114, 0.4);
+  width: 130px;
+  height: 28px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 6px/18px 0;
+  position: absolute;
+  top: -13px;
+  left: 70px;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+.note-wrap h4 {
+  color: #2a2b2a;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.note-date {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  color: #d83a25;
+  font-family: Englebert, Arial;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: Englebert, Arial;
+  border: none;
+  font-size: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #4b453c;
+  margin-top: -8px;
+}
+.note-yellow {
+  background: #f7e999;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+.note-blue {
+  background: #b9dcf4;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+.note-pink {
+  background: #ffbda3;
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  transform: rotate(1deg);
+}
+.note-green {
+  background: #caf4b9;
+  -webkit-transform: rotate(-1deg);
+  -moz-transform: rotate(-1deg);
+  -o-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+}

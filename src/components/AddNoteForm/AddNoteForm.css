@@ -1,0 +1,124 @@
+.addNoteForm-wrapper {
+  width: 220px;
+  margin-left: 50px;
+  max-height: 300px;
+  padding: 24px;
+  margin: 0 22px 44px 22px;
+  position: relative;
+  font-size: 24px;
+  display: inline-block;
+  font-family: Englebert, Arial;
+  color: #4b453c;
+  background: #bbbbb8;
+  line-height: 34px;
+  text-align: center;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  align-self: center;
+}
+
+.addNoteForm-wrapper::before {
+  display: block;
+  content: "";
+  background: rgba(227, 200, 114, 0.4);
+  width: 130px;
+  height: 28px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 6px/18px 0;
+  position: absolute;
+  top: -13px;
+  left: 70px;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+.title-input {
+  width: 90%;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-family: Englebert, Arial;
+  margin-bottom: 15px;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.note-text {
+  resize: none;
+  font-family: Englebert, Arial;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 90%;
+  height: 170px;
+  padding: 10px;
+  margin-bottom: 5px;
+  /* height: 30px; */
+}
+
+.color-btns {
+  position: absolute;
+  bottom: 0;
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+
+.color-btns button {
+  border-radius: 50%;
+  border: 2px solid transparent;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.yellow-btn {
+  background: #f7e999;
+}
+
+.blue-btn {
+  background: #b9dcf4;
+}
+
+.green-btn {
+  background: #caf4b9;
+}
+
+.pink-btn {
+  background: #ffbda3;
+}
+
+.color-btns button.selected {
+  border-color: #424242;
+}
+
+.add-btn {
+  background-color: rgb(72, 150, 76);
+  color: white;
+  margin: 0 12px;
+  padding: 6px 20px;
+  min-width: 60px;
+  border-radius: 30px;
+  border: none;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  margin-bottom: 5px;
+}
+
+.add-btn:hover {
+  background-color: rgb(55, 114, 58);
+}

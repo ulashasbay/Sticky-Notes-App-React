@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.App h3 {
+  font-size: 46px;
+  align-self: center;
+  font-family: Englebert, Arial;
+}
+
+.wrapper {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App .search-btn {
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-family: Englebert, Arial;
+  font-size: 16px;
+  width: 150px;
+}
